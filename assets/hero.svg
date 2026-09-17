@@ -1,0 +1,36 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A0D"/>
+      <stop offset="0.55" stop-color="#0B1115"/>
+      <stop offset="1" stop-color="#07110D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="240" y1="0" x2="1320" y2="0">
+      <stop stop-color="#00FF88"/>
+      <stop offset="1" stop-color="#72FFB8"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="520" rx="28" fill="url(#bg)"/>
+
+  <circle cx="1360" cy="115" r="170" fill="#00FF88" fill-opacity="0.07"/>
+  <circle cx="1360" cy="115" r="105" stroke="#00FF88" stroke-opacity="0.18" stroke-width="2"/>
+  <circle cx="1360" cy="115" r="68" stroke="#00FF88" stroke-opacity="0.09" stroke-width="2"/>
+
+  <rect x="94" y="86" width="118" height="8" rx="4" fill="url(#accent)"/>
+  <text x="94" y="176" fill="#F5F7F8" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700">ERISON.NETO</text>
+  <text x="94" y="244" fill="#B7C0C7" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400">FULL STACK DEVELOPER • SYSTEMS • APIs • AUTOMATION</text>
+
+  <text x="94" y="345" fill="#F5F7F8" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="600">
+    Turning real problems into reliable software.
+  </text>
+
+  <text x="94" y="412" fill="#00FF88" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="4">
+    BUILD • SHIP • IMPROVE
+  </text>
+
+  <circle cx="1460" cy="420" r="88" fill="#00FF88" fill-opacity="0.07" filter="url(#glow)"/>
+</svg>
